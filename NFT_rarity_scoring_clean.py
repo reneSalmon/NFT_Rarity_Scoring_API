@@ -117,6 +117,12 @@ col = df.pop("Trait_Ids")
 df.insert(1, col.name, col)
 df
 
+
+NFT_traits_data = df.to_json
+print(NFT_traits_data)
+
+
+
 #return df???
 
 ## 06 Goal 02: NFT_rarity_score
